@@ -51,6 +51,7 @@ ul li
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-content: center;
     padding: 100px;
     background-color: #E2E8F0;
 }
@@ -65,12 +66,13 @@ ul li
 {
  
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows:max-content;
+    grid-gap: 2rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 
     }
      
@@ -80,6 +82,10 @@ ul li
     border: 2px solid #e7e7e7;
     border-radius: 4px;
     padding: .5rem;
+    border-color: #E2E8F0;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    
      
 }
 
@@ -92,6 +98,8 @@ ul li
 {
     text-align: left;
     padding:100px;
+    background-color: #4A5568;
+    ;
 }
 
 .stories
@@ -120,14 +128,18 @@ ul li
 }
 .btn
 {
-    
-    display: inline;
+    background-color: #5A67D8;
     margin: 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 .form-group
 {
     margin: 0px;
     display: inline;
+    width: 160%;
+    height: 200px;
 
 }
 .article-body
@@ -155,8 +167,24 @@ a:hover{
 }
 .learn-about h3
 {
-    
+    color: #48BB78;
+    font-size: 21px;
 }
+
+.newsletter
+{
+    background-color: #48BB78;
+    color: white;
+    padding: 80px;
+}
+
+footer
+{
+    background-color: #4A5568;
+    padding: 80px;
+    color: white;
+}
+
 
 
 
